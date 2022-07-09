@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .btn{
+            background-color: deepskyblue;
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+            color: white;
+            transition: 0.3s ease-out;
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            margin-top: 1rem;
+        }
+        .btn:hover{
+            transform: scale(1.1);
+            background-color: aqua;
+        }
+        .btn:active{
+            background-color: lightcyan;
+            color: black;
+        }
+        .btn2{
+            width: 308px;
+            height: 41px;
+            background-color: green;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            transition: 0.3s ease-out;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        .btn2:hover{
+            transform: scale(1.1);
+            background-color: lightgreen;
+        }
+        .btn2:active{
+            background-color: greenyellow;
+            color: black;
+        }
+        .btn3{
+            width: 308px;
+            height: 41px;
+            background-color: deepskyblue;
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+            color: white;
+            transition: 0.3s ease-out;
+            cursor: pointer;
+            font-size: 1.2rem;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        .btn3:hover{
+            transform: scale(1.1);
+            background-color: aqua;
+        }
+        .btn3:active{
+            background-color: lightcyan;
+            color: black;
+        }
+
+        .wrapper{
+            margin: 200px auto;
+            max-width: 300px;
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            padding: 20px;
+            transition: 0.3s ease-out;
+        }
+
+        .imageWrapper{
+            overflow: hidden;
+            border-radius: 10px;
+            width: 200px;
+            height: 150px;
+        }
+        .image{
+            width: 200px;
+            height: 150px;
+            transition: 0.3s ease-out;
+
+        }
+
+        .wrapper:hover .image{
+                transform: scale(1.2);
+
+            }
+        .wrapper:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .desctiptionWrapper {
+            max-width: 70%;
+        }
+        .producuctName{
+
+        }
+        .flexWrapper{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    .footer{
+        height: 100px;
+        background-color: grey;
+        color: white;
+        padding: 0 20px;
+        padding-top: 10px;
+    }
+    .ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 200px;
+    }
+
+    .li{
+        list-style-type: none;
+    }
+
+    .imgLogo{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    .lastword {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: coral;
+        font-size: 1.2rem;
+    }
+    </style>
+</head>
+<body>
+    <button class="btn">Добавить в избранное</button>
+    <button class="btn2">Добавить в избранное</button>
+    <input type='text' class="btn3"/>
+    <div class="flexWrapper">
+        <div class="wrapper">
+            <div class="imageWrapper">
+                <img src="https://www.jabuka.tv/wp-content/uploads/2015/06/Isplativost-tresnje-1-375x195.jpg" alt="вишня" class="image" aria-label="Вишня">
+            </div>
+            <div class="desctiptionWrapper">
+                <h2 class="producuctName">Some product</h2>
+                <a href="tel:+18475555555">1-847-555-5555</a>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum itaque maxime necessitatibus ratione sunt voluptates. Ea eum incidunt maiores nostrum, perferendis quia, quis quisquam saepe sit vel voluptas, voluptate.</div>
+            </div>
+            <button class="btn">Buy</button>
+        </div>
+        <div class="wrapper">
+            <div class="imageWrapper">
+                <img src="https://www.jabuka.tv/wp-content/uploads/2015/06/Isplativost-tresnje-1-375x195.jpg" alt="вишня" class="image" aria-label="Вишня">
+            </div>
+            <div class="desctiptionWrapper">
+                <h2 class="producuctName">Some product</h2>
+                <a href="tel:+18475555555">1-847-555-5555</a>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum itaque maxime necessitatibus ratione sunt voluptates. Ea eum incidunt maiores nostrum, perferendis quia, quis quisquam saepe sit vel voluptas, voluptate.</div>
+            </div>
+            <button class="btn">Buy</button>
+        </div>
+        <div class="wrapper">
+            <div class="imageWrapper">
+                <img src="https://www.jabuka.tv/wp-content/uploads/2015/06/Isplativost-tresnje-1-375x195.jpg" alt="вишня" class="image" aria-label="Вишня">
+            </div>
+            <div class="desctiptionWrapper">
+                <h2 class="producuctName">Some product</h2>
+                <a href="tel:+18475555555">1-847-555-5555</a>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum itaque maxime necessitatibus ratione sunt voluptates. Ea eum incidunt maiores nostrum, perferendis quia, quis quisquam saepe sit vel voluptas, voluptate.</div>
+            </div>
+            <button class="btn">Buy</button>
+        </div>
+        <div class="wrapper">
+            <div class="imageWrapper">
+                <img src="https://www.jabuka.tv/wp-content/uploads/2015/06/Isplativost-tresnje-1-375x195.jpg" alt="вишня" class="image" aria-label="Вишня">
+            </div>
+            <div class="desctiptionWrapper">
+                <h2 class="producuctName">Some product</h2>
+                <a href="tel:+18475555555">1-847-555-5555</a>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum itaque maxime necessitatibus ratione sunt voluptates. Ea eum incidunt maiores nostrum, perferendis quia, quis quisquam saepe sit vel voluptas, voluptate.</div>
+            </div>
+            <button class="btn">Buy</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <ul class="ul">
+            <li class="li">first item
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul>
+            </li>
+            <li class="li">secont item
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul></li>
+            <li class="li">third item
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul></li>
+            <li class="li">forht item
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul></li>
+            <li class="li">fifth item
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul></li>
+            <li class="li">six item
+                <ul>
+                    <a href="tel:+18475555555">1-847-555-5555</a>
+                    <br/>
+                    <a href="email: homer37@yandex.ru">homer37@yandex.ru</a>
+                </ul>
+            </li>
+        </ul>
+        <div class="lastword">
+            All rights reserved
+            <img src="https://www.svgrepo.com/show/73689/logo.svg" alt="imageLog" class="imgLogo">
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
