@@ -15,7 +15,7 @@
     background-color: lightgreen;
 }
 .btn2:active{
-    background-color: greenyellow;
+    background-color: rgb(131, 175, 64);
     color: black;
 }
 
