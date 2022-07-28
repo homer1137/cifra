@@ -8,13 +8,14 @@
     transition: 0.3s ease-out;
     cursor: pointer;
     font-size: 1.2rem;
+    align-self: center;
 }
 .btn2:hover{
     transform: scale(1.1);
     background-color: lightgreen;
 }
 .btn2:active{
-    background-color: greenyellow;
+    background-color: rgb(131, 175, 64);
     color: black;
 }
 
